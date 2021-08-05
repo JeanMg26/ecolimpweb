@@ -1,0 +1,75 @@
+body {
+    font-family: "Roboto-Light" !important;
+    color: #8d97ad !important;
+    font-size: 12.5px !important;
+}
+
+.color-uns {
+    color: #e46a76 !important;
+    font-size: 12px !important;
+}
+
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(10, 74, 169, 0.15);
+}
+
+
+.form-control,
+.btn {
+    font-size: 14px !important;
+}
+
+::-webkit-input-placeholder {
+    color: #ced4da !important;
+}
+
+:-ms-input-placeholder {
+    color: #ced4da !important;
+}
+
+::-ms-input-placeholder {
+    color: #ced4da !important;
+}
+
+::placeholder {
+    color: #ced4da !important;
+}
+
+.activar a,
+a.activar,
+a.activar i {
+    color: #e46a76 !important;
+}
+
+
+.bg-light-blue,
+.btn-light-blue {
+    background-color: #aec5e8;
+    color: #1f4173;
+    font-weight: bold;
+}
+
+.btn-light-blue:hover,
+.btn-light-blue:active,
+.btn-light-blue:focus {
+    background-color: #52719e !important;
+    color: #fff;
+}
+
+.border-light-blue {
+    border-color: #B0C2DC;
+    font-weight: bold;
+}
+
+/* ********** Texto unseleccionable ************ */
+.no-seleccionable {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
